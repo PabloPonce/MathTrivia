@@ -1,0 +1,70 @@
+body,html {
+	height: 100%;
+}
+
+body {
+    background-image: url("../img/QuestionMark.jpg");
+    background-color: black;
+    background-repeat: repeat;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Patua One', cursive;
+
+}
+
+h2 {
+	top: 50%;
+	font-size: 50px;
+}
+
+p,h3 {
+	font-size: 25px;
+	font-family: 'Josefin Slab', serif;
+}
+
+p:hover { 
+   background-color: #04D9FF;
+   font-size: 25px;
+   color: white;
+ 
+}
+
+h1,h2,h3,p {
+	color: black;
+}
+
+#displayArea {
+	position: absolute;
+	margin: auto;
+	text-align: center;
+	background-color: white;
+	opacity: 0.5;
+	width: 70%;
+	height: 80%;
+	top: 10%;
+	left: 15%;
+}
+
+#content{
+	position: absolute;
+	margin: auto;
+	left: 10%;
+	top: 25%;
+	width: 80%;
+}
+
+button {
+	position: absolute;
+	
+	bottom: 20%;
+	left: 25%;
+	width: 50%;
+	font-size: 50px;
+}
+
+
+
+
+
